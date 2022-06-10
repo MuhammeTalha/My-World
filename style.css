@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    ;
+}
+
+.container {
+    background: url(uzungöl.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar {
+    width: 100½;
+    height: 80px;
+    background: rgba(22, 112, 214, 0.4)
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: forestgreen;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.navbar ul li a:hover {
+    background: rgb(9, 139, 0);
+    border-radius: 2px;
+}
+
+.container .merkez {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: merkez;
+}
+
+.merkez h2 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: bold;
+    width: 880px;
+    margin-top: 20px;
+    text-align: merkez;
+}
+
+.merkez.buttons {
+    margin: 35px 250px;
+}
+
+.buttons button {
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background: rgb(10, 214, 68);
+    border: solid 1px rgb(0, 255, 0);
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.buttons button:hover {
+    background: white;
+}

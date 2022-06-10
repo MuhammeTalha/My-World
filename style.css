@@ -21,13 +21,14 @@
     display: inline-block;
     margin-left: 100px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .navbar .logo a {
     text-decoration: none;
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: forestgreen;
+    color: rgb(11, 11, 11);
 }
 
 .navbar ul {
@@ -43,7 +44,7 @@
 }
 
 .navbar ul li a {
-    color: aqua;
+    color: rgb(0, 255, 255);
     text-decoration: none;
     font-size: 30px;
     padding: 6px 13px;
@@ -51,7 +52,7 @@
 }
 
 .navbar ul li a:hover {
-    background: rgb(9, 139, 0);
+    background: rgb(236, 128, 128);
     border-radius: 2px;
 }
 
@@ -68,8 +69,8 @@
     color: rgb(255, 255, 255);
     font-size: 70px;
     font-weight: bold;
-    width: 900px;
-    text-align: merkez;
+    width: 880px;
+    text-align: center;
 }
 
 .merkez h2 {
@@ -78,7 +79,7 @@
     font-weight: bold;
     width: 880px;
     margin-top: 20px;
-    text-align: merkez;
+    text-align: center;
 }
 
 .merkez.buttons {
@@ -87,7 +88,7 @@
 
 .buttons button {
     height: 60px;
-    width: 250px;
+    width: 290px;
     font-size: 20px;
     font-weight: bold;
     color: rgb(0, 0, 0);
@@ -100,5 +101,5 @@
 }
 
 .buttons button:hover {
-    background: white;
+    background: rgb(154, 231, 149);
 }
